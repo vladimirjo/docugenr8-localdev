@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = @@PROJECT_NAME@@
+authors = [{ name = "Vladimir Jovanovic", email = "vladimirjo@protonmail.com" }]
+description = @@PROJECT_DESCRIPTION@@
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = @@PROJECT_KEYWORDS@@
+license = { text = "MIT" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = @@PROJECT_DEPENDENCIES@@
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = { file = "version.txt" }
+
+[project.optional-dependencies]
+check = ["ruff", "mypy"]
+test = ["pytest", "pytest-cov"]
+build = ["build", "setuptools", "twine"]
+dev = ["@@OPT_DEPENDENCIES_DEV@@[check, test, build]"]
+
+[tool.ruff]
+line-length = 120
+extend-exclude = ["docs", "tests"]
+
+[tool.ruff.lint]
+select = ["D", "E", "F"]
+extend-select = ["W", "C90", "I", "N", "B", "A", "C4", "PERF", "RUF"]
+preview = true
+
+[tool.ruff.lint.isort]
+force-single-line = true
+lines-after-imports = 2
+known-third-party = ["fonttools"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+docstring-code-format = true
+
+[tool.mypy]
+strict = true

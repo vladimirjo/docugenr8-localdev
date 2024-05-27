@@ -1,0 +1,177 @@
+[docugenr8]
+PROJECT_NAME="docugenr8"
+OPT_DEPENDENCIES_DEV="@@/CLEAN_QUOTES@@docugenr8"
+PROJECT_DESCRIPTION="""Generates document with fonts, \
+                       images, and elements \
+                       using a coordinate system."""
+PROJECT_KEYWORDS=[
+    "document-generation",
+    "PDF",
+    "font-customization",
+    "image-integration",
+    "coordinate-system",
+    "text-formatting",
+    "python"
+]
+PROJECT_DEPENDENCIES=["docugenr8-core>=0.0.0,<1.0.0", "docugenr8-pdf>=0.0.0,<1.0.0"]
+PEACOCK_COLOR="#007fff"
+WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
+        "activityBar.activeBackground": "#3399ff",
+        "activityBar.background": "#3399ff",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#bf0060",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#3399ff",
+        "statusBar.background": "#007fff",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#3399ff",
+        "statusBarItem.remoteBackground": "#007fff",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#007fff",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#007fff99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }"""
+
+[docugenr8-core]
+PROJECT_NAME="docugenr8-core"
+OPT_DEPENDENCIES_DEV="@@/CLEAN_QUOTES@@docugenr8-core"
+PROJECT_DESCRIPTION="""Docugenr8 add-on library that provides functionality \
+                       to create and manipulate documents and its objects."""
+PROJECT_KEYWORDS=[
+    "docugenr8",
+    "core",
+    "PDF",
+    "image-integration",
+    "coordinate-system",
+    "text-formatting",
+    "python"
+]
+PROJECT_DEPENDENCIES=["fonttools", "docugenr8-shared>=0.0.0,<1.0.0"]
+PEACOCK_COLOR="#215732"
+WORKBENCH_COLORS="""@@{JSON}@@{
+        "activityBar.activeBackground": "#2f7c47",
+        "activityBar.background": "#2f7c47",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#422c74",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#2f7c47",
+        "statusBar.background": "#215732",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#2f7c47",
+        "statusBarItem.remoteBackground": "#215732",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#215732",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#21573299",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }"""
+
+[docugenr8-pdf]
+PROJECT_NAME="docugenr8-pdf"
+OPT_DEPENDENCIES_DEV="@@/CLEAN_QUOTES@@docugenr8-pdf"
+PROJECT_DESCRIPTION="Docugenr8 add-on library that generates pdf documents."
+PROJECT_KEYWORDS=[
+    "docugenr8",
+    "core",
+    "PDF",
+    "image-integration",
+    "coordinate-system",
+    "text-formatting",
+    "python"
+]
+PROJECT_DEPENDENCIES=["fonttools", "docugenr8-shared>=0.0.0,<1.0.0"]
+PEACOCK_COLOR="#dd0531"
+WORKBENCH_COLORS="""@@{JSON}@@{
+        "activityBar.activeBackground": "#fa1b49",
+        "activityBar.background": "#fa1b49",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#155e02",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#fa1b49",
+        "statusBar.background": "#dd0531",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#fa1b49",
+        "statusBarItem.remoteBackground": "#dd0531",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#dd0531",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#dd053199",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }"""
+
+[docugenr8-shared]
+PROJECT_NAME="docugenr8-shared"
+OPT_DEPENDENCIES_DEV="@@/CLEAN_QUOTES@@docugenr8-shared"
+PROJECT_DESCRIPTION="Docugenr8 add-on library for shared objects and functions."
+PROJECT_KEYWORDS=[
+    "docugenr8",
+    "core",
+    "PDF",
+    "image-integration",
+    "coordinate-system",
+    "text-formatting",
+    "python"
+]
+PROJECT_DEPENDENCIES=[]
+PEACOCK_COLOR="#ff3d00"
+WORKBENCH_COLORS="""@@{JSON}@@{
+        "activityBar.activeBackground": "#ff6433",
+        "activityBar.background": "#ff6433",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#00ff3d",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#ff6433",
+        "statusBar.background": "#ff3d00",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#ff6433",
+        "statusBarItem.remoteBackground": "#ff3d00",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#ff3d00",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#ff3d0099",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }"""
+
+[docugenr8-examples]
+PROJECT_NAME="docugenr8-examples"
+OPT_DEPENDENCIES_DEV="@@/CLEAN_QUOTES@@docugenr8-examples"
+PROJECT_DESCRIPTION="Docugenr8 repository with document examples."
+PROJECT_KEYWORDS=[
+    "docugenr8",
+    "core",
+    "PDF",
+    "image-integration",
+    "coordinate-system",
+    "text-formatting",
+    "python"
+]
+PROJECT_DEPENDENCIES=["docugenr8"]
+PEACOCK_COLOR="#832561"
+WORKBENCH_COLORS="""@@{JSON}@@{
+        "activityBar.activeBackground": "#ab307e",
+        "activityBar.background": "#ab307e",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#25320e",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#ab307e",
+        "statusBar.background": "#832561",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#ab307e",
+        "statusBarItem.remoteBackground": "#832561",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#832561",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#83256199",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }"""
