@@ -51,7 +51,7 @@ PROJECT_KEYWORDS=[
 ]
 PROJECT_DEPENDENCIES=["fonttools", "docugenr8-shared>=0.0.0,<1.0.0"]
 PEACOCK_COLOR="#215732"
-WORKBENCH_COLORS="""@@{JSON}@@{
+WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
         "activityBar.activeBackground": "#2f7c47",
         "activityBar.background": "#2f7c47",
         "activityBar.foreground": "#e7e7e7",
@@ -86,7 +86,7 @@ PROJECT_KEYWORDS=[
 ]
 PROJECT_DEPENDENCIES=["fonttools", "docugenr8-shared>=0.0.0,<1.0.0"]
 PEACOCK_COLOR="#dd0531"
-WORKBENCH_COLORS="""@@{JSON}@@{
+WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
         "activityBar.activeBackground": "#fa1b49",
         "activityBar.background": "#fa1b49",
         "activityBar.foreground": "#e7e7e7",
@@ -121,7 +121,7 @@ PROJECT_KEYWORDS=[
 ]
 PROJECT_DEPENDENCIES=[]
 PEACOCK_COLOR="#ff3d00"
-WORKBENCH_COLORS="""@@{JSON}@@{
+WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
         "activityBar.activeBackground": "#ff6433",
         "activityBar.background": "#ff6433",
         "activityBar.foreground": "#15202b",
@@ -156,7 +156,7 @@ PROJECT_KEYWORDS=[
 ]
 PROJECT_DEPENDENCIES=["docugenr8"]
 PEACOCK_COLOR="#832561"
-WORKBENCH_COLORS="""@@{JSON}@@{
+WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
         "activityBar.activeBackground": "#ab307e",
         "activityBar.background": "#ab307e",
         "activityBar.foreground": "#e7e7e7",
