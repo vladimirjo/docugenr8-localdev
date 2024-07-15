@@ -175,3 +175,38 @@ WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
         "titleBar.inactiveBackground": "#83256199",
         "titleBar.inactiveForeground": "#e7e7e799"
     }"""
+
+[docugenr8-svg]
+PROJECT_NAME="docugenr8-svg"
+OPT_DEPENDENCIES_DEV="@@/CLEAN_QUOTES@@docugenr8-svg"
+PROJECT_DESCRIPTION="""docugenr8-svg is a an add-on library that can read svg files."""
+PROJECT_KEYWORDS=[
+    "docugenr8",
+    "core",
+    "PDF",
+    "image-integration",
+    "coordinate-system",
+    "text-formatting",
+    "python"
+]
+PROJECT_DEPENDENCIES=[]
+PEACOCK_COLOR="#f9e64f"
+WORKBENCH_COLORS="""@@/CLEAN_JSON@@{
+        "activityBar.activeBackground": "#fbed80",
+        "activityBar.background": "#fbed80",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#06b9a5",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#fbed80",
+        "statusBar.background": "#f9e64f",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#f7df1e",
+        "statusBarItem.remoteBackground": "#f9e64f",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#f9e64f",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#f9e64f99",
+        "titleBar.inactiveForeground": "#15202b99"
+    }"""
